@@ -76,6 +76,7 @@ def convert_csv_to_interaction(file_name, skip_header=-1):
 # 1) Read iteraction file and process
 file_template_network = "interaction_info.csv"
 network_interaction = convert_csv_to_interaction(file_template_network, -1)
+print("number of interaction:", len(network_interaction))
 print("Number of miRNA node:", len(node_miRNA))
 print("Number of TF node   :", len(node_tf))
 # print(node_tf)
