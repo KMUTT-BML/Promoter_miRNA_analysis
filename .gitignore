@@ -1,3 +1,9 @@
+# ignore genome seqeunce and annotation
+data/genome/*
+data/miRNA_annotaiton/*
+out/*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 #*.py[cod]
